@@ -273,7 +273,8 @@ exports = module.exports = [
                         name: 'description',
                         items: [
                             {
-                                selector: 'description'
+                                selector: 'description',
+								decode: true
                             }
                         ]
                     },
@@ -336,7 +337,8 @@ exports = module.exports = [
                         name: 'description',
                         items: [
                             {
-                                selector: 'description'
+                                selector: 'description',
+								decode: true
                             }
                         ]
                     },

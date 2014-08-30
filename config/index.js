@@ -26,7 +26,7 @@ var config = module.exports = convict({
     },
     mongo_url: {
         doc: 'MongoDB url to connect to (including db reference)',
-        default: 'mongodb://localhost/hearsay',
+        default: 'mongodb://localhost/hearsay-test',
         env: 'MONGO_URL'
     }
 });
